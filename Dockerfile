@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update
 RUN apt-get install -y git
-RUN apt-get install -y python3.10
+RUN apt-get install -y python3
 
 RUN mkdir -p /root/A
 RUN mkdir -p /root/B
